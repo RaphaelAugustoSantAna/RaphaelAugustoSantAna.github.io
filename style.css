@@ -1,0 +1,39 @@
+
+body{
+    background-color: rgba(255, 255, 255, 0.575);
+    color:rgb(49, 48, 48)
+    
+}
+
+header{
+    background-color: rgba(255, 255, 255, 0.575);
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+    line-height: 40px;
+
+}
+
+h1{
+    font-style: oblique;
+    line-height: 40px;
+}
+
+.texto-padronizado{
+
+    font-style: oblique;
+    text-align: left;
+    line-height: 40px;
+}
+img{
+    border-radius: 100%;
+    
+}
+
+section{
+    text-decoration:underline;
+    background-color: rgba(128, 128, 128, 0.418);
+    border-radius: 10px;
+    padding: 15px 10px;
+    width: 300px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0.418);
+}
