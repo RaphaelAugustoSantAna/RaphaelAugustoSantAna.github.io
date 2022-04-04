@@ -6,6 +6,8 @@ body{
 }
 
 header{
+    
+    text-align: center;
     font-weight: bold;
     font-style:oblique;
     line-height: 40px;
@@ -17,7 +19,8 @@ header{
 
 }
 
-h1{
+h1{ 
+    text-align: center;
     font-style: oblique;
     line-height: 40px;
 }
@@ -29,17 +32,22 @@ h1{
     line-height: 40px;
 }
 img{
-    border-radius: 100%;
-    
+    border-radius: 10px;
+   
+ 
 }
 
 section{
     text-decoration:underline;
-    background-color: rgba(128, 128, 128, 0.418);
+    text-align:center;
+  /*  background-color: rgba(128, 128, 128, 0.418);*/
     border-radius: 10px;
-    padding: 15px 10px;
-    width: 300px;
-    box-shadow: 5px 5px 10px rgb(0, 0, 0.418);
+    padding: 30px 50px 50px 10px;
+    width: 330px;
+    float: left;
+    clear: right;
+   /* box-shadow: 5px 5px 10px rgb(0, 0, 0.418);*/
+    
 }
 
 footer{
@@ -48,9 +56,27 @@ footer{
     line-height: 40px;
     background-color: #ffffff;
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
     width: 300px;
     box-shadow: 5px 5px 10px rgb(0, 0, 0.418)
-
-
 }
+
+#minha-foto{
+    background-color: rgb(56, 80, 56);
+    float: left;
+    height: 230px;
+    padding: 10px
+    
+}
+
+.imagine-container{
+    height: 250px;
+}
+ul li:nth-child(odd){
+    color:black;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
